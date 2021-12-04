@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\FatihARI\\Desktop\\Practise\\libraryApp\\LibraryApp.WebAPI\\LibraryApp.WebAPI.csproj": {}
+    "C:\\Users\\FatihARI\\Desktop\\Practise\\libraryApp\\LibraryApp.WebAPI\\LibraryApp.WebAPI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\FatihARI\\Desktop\\Practise\\libraryApp\\LibraryApp.WebAPI\\LibraryApp.WebAPI.csproj": {
+    "C:\\Users\\FatihARI\\Desktop\\Practise\\libraryApp\\LibraryApp.WebAPI\\LibraryApp.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\FatihARI\\Desktop\\Practise\\libraryApp\\LibraryApp.WebAPI\\LibraryApp.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\FatihARI\\Desktop\\Practise\\libraryApp\\LibraryApp.WebAPI\\LibraryApp.WebAPI.csproj",
         "projectName": "LibraryApp.WebAPI",
-        "projectPath": "c:\\Users\\FatihARI\\Desktop\\Practise\\libraryApp\\LibraryApp.WebAPI\\LibraryApp.WebAPI.csproj",
+        "projectPath": "C:\\Users\\FatihARI\\Desktop\\Practise\\libraryApp\\LibraryApp.WebAPI\\LibraryApp.WebAPI.csproj",
         "packagesPath": "C:\\Users\\FatihARI\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\FatihARI\\Desktop\\Practise\\libraryApp\\LibraryApp.WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\FatihARI\\Desktop\\Practise\\libraryApp\\LibraryApp.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FatihARI\\AppData\\Roaming\\NuGet\\NuGet.Config",
