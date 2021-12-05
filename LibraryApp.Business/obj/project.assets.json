@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "LibraryApp.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LibraryApp.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryApp.Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LibraryApp.Entities/1.0.0": {
+      "type": "project",
+      "path": "../LibraryApp.Entities/LibraryApp.Entities.csproj",
+      "msbuildProject": "../LibraryApp.Entities/LibraryApp.Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "LibraryApp.Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\FatihARI\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\FatihARI\\Desktop\\Practise\\libraryApp\\LibraryApp.Entities\\LibraryApp.Entities.csproj": {
+              "projectPath": "C:\\Users\\FatihARI\\Desktop\\Practise\\libraryApp\\LibraryApp.Entities\\LibraryApp.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

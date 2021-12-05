@@ -25,3 +25,6 @@ C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.WebAPI\obj\Debug\net6.0
 C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.WebAPI\obj\Debug\net6.0\ref\LibraryApp.WebAPI.dll
 C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.WebAPI\obj\Debug\net6.0\LibraryApp.WebAPI.pdb
 C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.WebAPI\obj\Debug\net6.0\LibraryApp.WebAPI.genruntimeconfig.cache
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll

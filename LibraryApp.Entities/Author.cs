@@ -1,3 +1,5 @@
+using System.Collections.ObjectModel;
+
 namespace LibraryApp.Entities
 {
     public class Author

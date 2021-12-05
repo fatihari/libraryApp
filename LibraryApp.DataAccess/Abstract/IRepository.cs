@@ -1,4 +1,6 @@
-namespace LibraryApp.Core.DataAccess
+using System.Linq.Expressions;
+
+namespace LibraryApp.DataAccess
 {
     //  Select, insert, update, delete from a central place once. 
     //  It is applied to all tables thanks to the generics structure. 

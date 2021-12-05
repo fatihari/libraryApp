@@ -1,0 +1,17 @@
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.DataAccess\bin\Debug\net6.0\LibraryApp.DataAccess.deps.json
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.DataAccess\bin\Debug\net6.0\LibraryApp.DataAccess.runtimeconfig.json
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.DataAccess\bin\Debug\net6.0\LibraryApp.DataAccess.dll
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.DataAccess\bin\Debug\net6.0\ref\LibraryApp.DataAccess.dll
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.DataAccess\bin\Debug\net6.0\LibraryApp.DataAccess.pdb
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.DataAccess\bin\Debug\net6.0\LibraryApp.Entities.dll
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.DataAccess\bin\Debug\net6.0\LibraryApp.Entities.pdb
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.DataAccess\obj\Debug\net6.0\LibraryApp.DataAccess.csproj.AssemblyReference.cache
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.DataAccess\obj\Debug\net6.0\LibraryApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.DataAccess\obj\Debug\net6.0\LibraryApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.DataAccess\obj\Debug\net6.0\LibraryApp.DataAccess.AssemblyInfo.cs
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.DataAccess\obj\Debug\net6.0\LibraryApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.DataAccess\obj\Debug\net6.0\LibraryApp.DataAccess.csproj.CopyComplete
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.DataAccess\obj\Debug\net6.0\LibraryApp.DataAccess.dll
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.DataAccess\obj\Debug\net6.0\ref\LibraryApp.DataAccess.dll
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.DataAccess\obj\Debug\net6.0\LibraryApp.DataAccess.pdb
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.DataAccess\obj\Debug\net6.0\LibraryApp.DataAccess.genruntimeconfig.cache

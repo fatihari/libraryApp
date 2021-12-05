@@ -1,6 +1,8 @@
+using System.Linq.Expressions;
+
 namespace LibraryApp.Business.Abstract
 {
-    public interface IService where TEntity:class //   The part with the controlling methods is the services.
+    public interface IService<TEntity> where TEntity:class //   The part with the controlling methods is the services.
     {
         //  It is exactly the same as the methods in IRepository. 
         //  The reason we don't inherit is to change the "repository" interface when we switch from MSSQL to Oracle. 

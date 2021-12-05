@@ -1,0 +1,12 @@
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Entities\bin\Debug\net6.0\LibraryApp.Entities.deps.json
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Entities\bin\Debug\net6.0\LibraryApp.Entities.dll
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Entities\bin\Debug\net6.0\ref\LibraryApp.Entities.dll
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Entities\bin\Debug\net6.0\LibraryApp.Entities.pdb
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Entities\obj\Debug\net6.0\LibraryApp.Entities.csproj.AssemblyReference.cache
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Entities\obj\Debug\net6.0\LibraryApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Entities\obj\Debug\net6.0\LibraryApp.Entities.AssemblyInfoInputs.cache
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Entities\obj\Debug\net6.0\LibraryApp.Entities.AssemblyInfo.cs
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Entities\obj\Debug\net6.0\LibraryApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Entities\obj\Debug\net6.0\LibraryApp.Entities.dll
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Entities\obj\Debug\net6.0\ref\LibraryApp.Entities.dll
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Entities\obj\Debug\net6.0\LibraryApp.Entities.pdb

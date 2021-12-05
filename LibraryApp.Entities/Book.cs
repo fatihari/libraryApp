@@ -6,6 +6,7 @@ namespace LibraryApp.Entities
         public string Title { get; set; }
         public int Year { get; set; }
         public string Literature { get; set; }
-        public virtual Publisher Publisher { get; set; } // EF will track changes using inherit via the Publisher class. 
+        public int AuthorId { get; set; }
+        public virtual Author Author { get; set; } // EF will track changes using inherit via the Author class. 
     }
 }

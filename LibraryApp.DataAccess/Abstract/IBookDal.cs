@@ -1,3 +1,6 @@
+using LibraryApp.DataAccess;
+using LibraryApp.Entities;
+
 namespace LibraryApp.DataAccess.Abstract
 {
     public interface IBookDal : IRepository<Book>

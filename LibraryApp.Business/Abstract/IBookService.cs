@@ -1,3 +1,5 @@
+using LibraryApp.Entities;
+
 namespace LibraryApp.Business.Abstract
 {
     public interface IBookService : IService<Book> //   The part with the controlling methods is the services.
