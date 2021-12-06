@@ -8,7 +8,7 @@ namespace LibraryApp.DataAccess
     {
         Task<TEntity> GetByIdAsync(int id); //  Returns the relevant one entity. It doesn't list models that depend on that entity!
         Task<IEnumerable<TEntity>> GetAllAsync();   //  list instance-s
-        IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate); //    list instance-s by "where" condition i.e : 
+        Task <IEnumerable<TEntity>> Where(Expression<Func<TEntity, bool>> predicate); //    list instance-s by "where" condition i.e : 
         Task<TEntity> SingleOrDefaultAsync(Expression<Func<TEntity, bool>> predicate); //list one instance by "where" condition i.e : Find(x=>x.title="..")
         Task AddAsync(TEntity entity);
         Task AddRangeAsync(IEnumerable<TEntity> entities);

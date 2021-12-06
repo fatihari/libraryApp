@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LibraryApp.Entities\LibraryApp.Entities.csproj" />
+    <ProjectReference Include="..\LibraryApp.DataAccess\LibraryApp.DataAccess.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

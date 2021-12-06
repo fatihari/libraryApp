@@ -12,7 +12,7 @@ namespace LibraryApp.DataAccess.Concrete.EFCore
         protected readonly DbContext _context;
         private readonly DbSet<TEntity> _dbSet;
 
-        public EfCoreRepository(DbContext context)
+        public EfCoreRepository(LibraryContext context)
         {
             _context = context;
             _dbSet = context.Set<TEntity>();
@@ -63,9 +63,9 @@ namespace LibraryApp.DataAccess.Concrete.EFCore
         }
 
         //book.where(b=>b.name="book"
-        public IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate)
+        public async Task<IEnumerable<TEntity>> Where(Expression<Func<TEntity, bool>> predicate)
         {
-            return _dbSet.Where(predicate);
+            return await _dbSet.Where(predicate).ToListAsync();
         }
 
         public async Task<IEnumerable<TEntity>> GetAllAsync()
@@ -73,9 +73,9 @@ namespace LibraryApp.DataAccess.Concrete.EFCore
             return await _dbSet.ToListAsync();
         }
 
-        public ValueTask<TEntity> GetByIdAsync(int id)
+        public async Task<TEntity> GetByIdAsync(int id)
         {
-            return _dbSet.FindAsync(id);
+            return await _dbSet.FindAsync(id);
         }
 
         public void Remove(TEntity entity)
@@ -112,9 +112,6 @@ namespace LibraryApp.DataAccess.Concrete.EFCore
     
         }
 
-        Task<TEntity> IRepository<TEntity>.GetByIdAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
+
     }
 }

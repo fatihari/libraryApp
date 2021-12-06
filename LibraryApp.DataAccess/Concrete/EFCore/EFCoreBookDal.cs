@@ -7,7 +7,7 @@ namespace LibraryApp.DataAccess.Concrete.EFCore
     public class EFCoreBookDal : EfCoreRepository<Book>, IBookDal
     {
         private LibraryContext _libraryContext { get => _context as LibraryContext; }
-        public EFCoreBookDal(DbContext context) : base(context)
+        public EFCoreBookDal(LibraryContext context) : base(context)
         {
         }
 

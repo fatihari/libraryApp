@@ -7,7 +7,7 @@ namespace LibraryApp.DataAccess.Concrete.EFCore
     public class EFCoreAuthorDal : EfCoreRepository<Author>, IAuthorDal
     {
         private LibraryContext _libraryContext { get => _context as LibraryContext; }
-        public EFCoreAuthorDal(DbContext context) : base(context)
+        public EFCoreAuthorDal(LibraryContext context) : base(context)
         {
         }
 

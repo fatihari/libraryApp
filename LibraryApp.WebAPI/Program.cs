@@ -1,11 +1,27 @@
+using LibraryApp.DataAccess.Abstract;
+using LibraryApp.DataAccess.Concrete.EFCore;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// Learn more about configuring Swagger/OpemnAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// via dbcontext provide connection 
+builder.Services.AddDbContext<LibraryContext>(options => 
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SqlConStr"), o => {
+        o.MigrationsAssembly("LibraryApp.WebAPI");
+    });
+});
+
+//  If "more than one" IUnitOfWork interface is encountered in a class's constructor, 
+//  it will get an object instance from EFCoreUnitOfWork. 
+builder.Services.AddScoped<IUnitOfWork, EFCoreUnitOfWork>(); // transient every time that is not one time run.
 
 var app = builder.Build();
 
