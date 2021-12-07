@@ -21,6 +21,9 @@ builder.Services.AddDbContext<LibraryContext>(options =>
     });
 });
 
+//  Now transforming objects will be done with Automapper.
+builder.Services.AddAutoMapper(typeof(Program).Assembly);
+
 //  If "more than one" IUnitOfWork interface is encountered in a class's constructor, 
 //  it will get an object instance from EFCoreUnitOfWork. 
 builder.Services.AddScoped<IUnitOfWork, EFCoreUnitOfWork>(); // transient every time that is not one time run.
