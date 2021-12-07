@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "LibraryApp.WebAPI/1.0.0": {
         "dependencies": {
+          "LibraryApp.Business": "1.0.0",
           "LibraryApp.DataAccess": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.0",
@@ -482,6 +483,15 @@
           }
         }
       },
+      "LibraryApp.Business/1.0.0": {
+        "dependencies": {
+          "LibraryApp.DataAccess": "1.0.0",
+          "LibraryApp.Entities": "1.0.0"
+        },
+        "runtime": {
+          "LibraryApp.Business.dll": {}
+        }
+      },
       "LibraryApp.DataAccess/1.0.0": {
         "dependencies": {
           "LibraryApp.Entities": "1.0.0",
@@ -848,6 +858,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "LibraryApp.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "LibraryApp.DataAccess/1.0.0": {
       "type": "project",
