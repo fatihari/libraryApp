@@ -2,9 +2,9 @@
 
 #nullable disable
 
-namespace LibraryApp.WebAPI.Migrations
+namespace LibraryApp.DataAccess.Migrations
 {
-    public partial class initial : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -19,6 +19,19 @@ namespace LibraryApp.WebAPI.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Authors", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Publishers",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Publishers", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -53,6 +66,9 @@ namespace LibraryApp.WebAPI.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Book");
+
+            migrationBuilder.DropTable(
+                name: "Publishers");
 
             migrationBuilder.DropTable(
                 name: "Authors");

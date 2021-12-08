@@ -17,7 +17,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<LibraryContext>(options => 
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("SqlConStr"), o => {
-        o.MigrationsAssembly("LibraryApp.WebAPI");
+        o.MigrationsAssembly("LibraryApp.DataAccess");
     });
 });
 

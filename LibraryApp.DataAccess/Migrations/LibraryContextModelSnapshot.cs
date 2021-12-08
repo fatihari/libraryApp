@@ -3,18 +3,16 @@ using LibraryApp.DataAccess.Concrete.EFCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace LibraryApp.WebAPI.Migrations
+namespace LibraryApp.DataAccess.Migrations
 {
     [DbContext(typeof(LibraryContext))]
-    [Migration("20211206095425_initial")]
-    partial class initial
+    partial class LibraryContextModelSnapshot : ModelSnapshot
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -69,6 +67,23 @@ namespace LibraryApp.WebAPI.Migrations
                     b.HasIndex("AuthorId");
 
                     b.ToTable("Book", (string)null);
+                });
+
+            modelBuilder.Entity("LibraryApp.Entities.Publisher", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Publishers");
                 });
 
             modelBuilder.Entity("LibraryApp.Entities.Book", b =>

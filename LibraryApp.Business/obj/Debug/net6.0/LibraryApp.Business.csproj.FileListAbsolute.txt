@@ -2,8 +2,10 @@ C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Business\bin\Debug\net6
 C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Business\bin\Debug\net6.0\LibraryApp.Business.dll
 C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Business\bin\Debug\net6.0\ref\LibraryApp.Business.dll
 C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Business\bin\Debug\net6.0\LibraryApp.Business.pdb
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Business\bin\Debug\net6.0\LibraryApp.DataAccess.dll
 C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Business\bin\Debug\net6.0\LibraryApp.Entities.dll
 C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Business\bin\Debug\net6.0\LibraryApp.Entities.pdb
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Business\bin\Debug\net6.0\LibraryApp.DataAccess.pdb
 C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Business\obj\Debug\net6.0\LibraryApp.Business.csproj.AssemblyReference.cache
 C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Business\obj\Debug\net6.0\LibraryApp.Business.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Business\obj\Debug\net6.0\LibraryApp.Business.AssemblyInfoInputs.cache
@@ -13,5 +15,3 @@ C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Business\obj\Debug\net6
 C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Business\obj\Debug\net6.0\LibraryApp.Business.dll
 C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Business\obj\Debug\net6.0\ref\LibraryApp.Business.dll
 C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Business\obj\Debug\net6.0\LibraryApp.Business.pdb
-C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Business\bin\Debug\net6.0\LibraryApp.DataAccess.dll
-C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Business\bin\Debug\net6.0\LibraryApp.DataAccess.pdb

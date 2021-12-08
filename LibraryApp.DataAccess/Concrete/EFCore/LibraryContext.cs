@@ -21,6 +21,7 @@ namespace LibraryApp.DataAccess.Concrete.EFCore
         //  Create db tables.
         public DbSet<Author> Authors { get; set; }
         public DbSet<Book> Books { get; set; }
+        public DbSet<Publisher> Publishers { get; set; }
 
         //  The method that will run before the tables in the db are created..
         protected override void OnModelCreating(ModelBuilder builder)
