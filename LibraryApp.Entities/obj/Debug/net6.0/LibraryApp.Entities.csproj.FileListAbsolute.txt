@@ -9,3 +9,4 @@ C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Entities\obj\Debug\net6
 C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Entities\obj\Debug\net6.0\LibraryApp.Entities.dll
 C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Entities\obj\Debug\net6.0\ref\LibraryApp.Entities.dll
 C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Entities\obj\Debug\net6.0\LibraryApp.Entities.pdb
+C:\Users\FatihARI\Desktop\Practise\libraryApp\LibraryApp.Entities\obj\Debug\net6.0\LibraryApp.Entities.csproj.AssemblyReference.cache
