@@ -22,6 +22,7 @@ namespace LibraryApp.DataAccess.Concrete.EFCore
         public DbSet<Author> Authors { get; set; }
         public DbSet<Book> Books { get; set; }
         public DbSet<Publisher> Publishers { get; set; }
+        public DbSet<User> Users { get; set; }
 
         //  The method that will run before the tables in the db are created..
         protected override void OnModelCreating(ModelBuilder builder)
@@ -37,6 +38,8 @@ namespace LibraryApp.DataAccess.Concrete.EFCore
             */
             builder.ApplyConfiguration(new BookConfiguration());
             builder.ApplyConfiguration(new AuthorConfiguration());
+            builder.ApplyConfiguration(new UserConfiguration());
+        
         }
 
     }

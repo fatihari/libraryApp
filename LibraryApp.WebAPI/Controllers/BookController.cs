@@ -7,6 +7,7 @@ using LibraryApp.Business.Abstract;
 using LibraryApp.Business.Abstract.Dtos;
 using LibraryApp.Entities;
 using LibraryApp.WebAPI.Filters;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibraryApp.WebAPI.Controllers
@@ -23,6 +24,7 @@ namespace LibraryApp.WebAPI.Controllers
             _mapper = mapper;
         }
         
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {

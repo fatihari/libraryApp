@@ -10,6 +10,7 @@ namespace LibraryApp.DataAccess.Abstract
         */
          public IAuthorDal Authors { get; } // Dependency Injection
          public IBookDal Books { get; }     // Dependency Injection
+         public IUserDal Users { get; }     // Dependency Injection
          Task CommitAsycnc();
          void Commit();
     }

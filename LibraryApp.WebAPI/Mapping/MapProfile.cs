@@ -16,6 +16,8 @@ namespace LibraryApp.WebAPI.Mapping
             CreateMap<BookDto, Book>();
             CreateMap<Book, BookWithAuthorDto>();
             CreateMap<BookWithAuthorDto, Book>();
+           CreateMap<User, UserDto>();
+            CreateMap<UserDto, User>();
         }
     }
 }

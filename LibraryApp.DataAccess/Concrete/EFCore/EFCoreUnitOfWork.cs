@@ -7,10 +7,13 @@ namespace LibraryApp.DataAccess.Concrete.EFCore
         private readonly LibraryContext _context;
         private IAuthorDal _iAuthorDal;
         private IBookDal _iBookDal;
+        private IUserDal _iUserDal;
 
         // IAuthorDal varsa => _iAuthorDal'yi ata ?? (Değilse) yeni bir IAuthorDal oluştur.
         public IAuthorDal Authors => _iAuthorDal = _iAuthorDal ?? new EFCoreAuthorDal(_context);
         public IBookDal Books => _iBookDal = _iBookDal ?? new EFCoreBookDal(_context);
+        public IUserDal Users => _iUserDal = _iUserDal ?? new EFCoreUserDal(_context);
+       
 
         public EFCoreUnitOfWork(LibraryContext libraryContext)
         {
